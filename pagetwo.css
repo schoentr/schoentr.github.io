@@ -1,0 +1,65 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     height: 100%;
+     background: url(background.jpeg);
+     background-attachment: fixed;     
+  }
+
+  header {
+      background-blend-mode: hard-light;
+      background: linear-gradient(black, white);
+      opacity: 0.4;
+      border: 5px solid white;
+      text-align: center;
+      padding:5px;
+      font-size: 45;
+      display: block;
+      width: 700px;
+  }
+  nav {
+      line-height:;
+      background-color:white;
+      width:125px;
+      display: inline-block;
+      vertical-align: top;
+  }
+  nav ul {
+      list-style-type: none;
+  }
+  a {
+      color: ;
+  }
+  section {
+      width: 516px;
+      display: inline-block;
+  }
+  aside {
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:;
+    font-size: ;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      text-align:;
+      padding:5px;
+      display: block;
+  }
+  #cataroke {
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  #image {
+    border-radius: 8px;
+  }

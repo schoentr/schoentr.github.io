@@ -1,0 +1,75 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     width: 800px;
+     height: 100%;
+     /* background-image: url (cat_toast.jpg); */
+  }
+
+  header {
+      background-color:#ff8119;
+      color: #067285;
+      padding: 25px;
+      border: 25px groove #089AB2; 
+      text-align:center; 
+      font-size:25px;
+      display: block;
+  }
+  h2 {
+      color: #067285;
+      /* text-align: center; */
+  }
+  nav { 
+      float: center;
+      width: 100%;
+      text-align: center;
+  }
+  nav ul {
+      float: center;
+      list-style-type: none;
+  }
+  nav li {
+      /* float: center; */
+      display: inline-block;
+  }
+  nav li a {
+      /* display: block; */
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: black;
+  }
+  section {
+      width: 100%;
+      /* display: inline-block; */
+      float: left;
+      text-align: center; 
+      color: #067285;
+  }
+  section ul{
+      list-style-type: none;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:white;
+      padding:2px;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:white;
+      color:black;
+      clear: both;
+      display: block;
+  }
